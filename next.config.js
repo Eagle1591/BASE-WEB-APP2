@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
+  // No need for 'experimental.appDir'
 }
 
 module.exports = nextConfig
